@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import Navbar from '../components/layout/Navbar';
+import Navbar from '../components/layout/Navbar';
 import Spline from '@splinetool/react-spline';
 
 
@@ -8,7 +8,7 @@ import Spline from '@splinetool/react-spline';
 function App() {
     return (
         <div style={styles.body}>
-            
+            <Navbar />
             <Spline scene="https://prod.spline.design/vlBdDrCLuKb271ed/scene.splinecode" />
             <div style={styles.info}>
                 <p style={styles.pg1}>We are a full service management company who is dedicated in providing the gold standard in management services.</p>
