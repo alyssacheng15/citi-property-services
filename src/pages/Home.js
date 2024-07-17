@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Home = () => {
+function App() {
     return (
         <div>
-            <h1>home page</h1>
+            <h1>home</h1>
+            <Link to="/AboutUs">About Us</Link>
         </div>
     );
 };
 
-export default Home;
+export default App;
