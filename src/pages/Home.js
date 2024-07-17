@@ -11,7 +11,7 @@ function App() {
         <div style={styles.body}>
             <Navbar />
             <div style={styles.spline}>
-                <Spline scene="https://prod.spline.design/vlBdDrCLuKb271ed/scene.splinecode" />
+            <Spline scene="https://prod.spline.design/vlBdDrCLuKb271ed/scene.splinecode" />
             </div>
             <div style={styles.info}>
                 <p style={styles.pg1}>We are a full service management company who is dedicated in providing the gold standard in management services.</p>
@@ -48,17 +48,19 @@ const styles = {
         display: 'flex',
         marginLeft: 150,
         marginRight: 150,
+        height: 145,
     },
 
     pg1: {
         textAlign: 'right',
         marginRight: 15,
+        marginTop: 40,
     },
 
     pg2: {
         textAlign: 'left',
         marginLeft: 15,
-
+        marginTop: 40,
     },
 };
 

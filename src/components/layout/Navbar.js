@@ -49,10 +49,6 @@ const styles = {
     textDecoration: 'none',
     color: '#fff',
   },
-  navbarLogoText: {
-    margin: 0,
-    fontSize: '1.8em',
-  },
   navbarMenu: {
     listStyle: 'none',
     display: 'flex',
@@ -71,11 +67,11 @@ const styles = {
   navbarLink: {
     textDecoration: 'none',
     color: '#fff',
-    fontSize: '1.5em',
+    fontSize: '1.3em',
     transition: 'color 0.3s',
   },
   logoImage: {
-    height: '130px',
+    height: '120px',
   },
 };
 
