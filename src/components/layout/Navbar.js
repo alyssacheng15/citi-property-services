@@ -32,7 +32,6 @@ function Navbar() {
 
 const styles = {
   navbar: {
-    backgroundColor: '#5C5C5C',
     padding: '10px 20px',
     color: '#fff',
     display: 'flex',
