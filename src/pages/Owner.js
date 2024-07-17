@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/layout/NavBar';
+import Navbar from '../components/layout/Navbar';
 
 function Owner() {
     return (
