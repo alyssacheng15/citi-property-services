@@ -30,6 +30,7 @@ const styles = {
         flexDirection: 'column',
         alignItems: 'center',
         margin: 0,
+        //minHeight: '100%',
     },
 
     splineContainer: {
@@ -46,22 +47,30 @@ const styles = {
         borderRadius: 25,
         padding: 10,
         display: 'flex',
-        marginLeft: 150,
-        marginRight: 150,
-        height: 145,
+        marginLeft: '15vw',
+        marginRight: '15vw',
+        height: '15vh',
     },
 
     pg1: {
         textAlign: 'right',
-        marginRight: 15,
-        marginTop: 40,
+        paddingRight: '2vw',
+      //  paddingTop: '2vw',
     },
 
     pg2: {
         textAlign: 'left',
-        marginLeft: 15,
-        marginTop: 40,
+        paddingRight: '2vw',
+       // paddingTop: '2vw',
     },
+    
+    '@media (min-width: 755px)': {
+        pg1: {
+            font: 24,
+        },
+    },
+
+
 };
 
 export default App;
