@@ -4,14 +4,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .navbarContainer {
     width: 100%;
     max-width: 1200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    padding: 0px 20px;
 }
 
 .navbarLogo {
@@ -22,7 +25,7 @@
 .navbarMenu {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0;
     margin: 0;
@@ -30,11 +33,11 @@
 }
 
 .navbarItem {
-    margin: 0 100px;
+    margin: 0 10px;
 }
 
 .navbarLogoItem {
-    margin: 0 40px;
+    margin: 0 10px;
 }
 
 .navbarLink {
@@ -48,11 +51,10 @@
     height: 120px;
 }
 
-
   /* tablet size */
   @media (min-width: 650px) and (max-width: 1024px) {
     .navbar {
-        padding: 10px 10px;
+        
     }
 
     .navbarContainer {
@@ -65,7 +67,7 @@
 
     .navbarItem,
     .navbarLogoItem {
-        margin: 0 20px;
+       
     }
 
     .navbarLink {
