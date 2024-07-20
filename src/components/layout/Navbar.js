@@ -1,78 +1,34 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/citi_logo.png';
+import styles from './NavBar.module.css';
 
 function Navbar() {
   return (
-    <nav style={styles.navbar}>
-      <div style={styles.navbarContainer}>
-        <ul style={styles.navbarMenu}>
-          <li style={styles.navbarItem}>
-            <Link to="/about" style={styles.navbarLink}>About</Link>
+    <nav className={styles.navbar}>
+      <div className={styles.navbarContainer}>
+        <ul className={styles.navbarMenu}>
+          <li className={styles.navbarItem}>
+            <Link to="/about" className={styles.navbarLink}>About</Link>
           </li>
-          <li style={styles.navbarItem}>
-            <Link to="/services" style={styles.navbarLink}>Services</Link>
+          <li className={styles.navbarItem}>
+            <Link to="/services" className={styles.navbarLink}>Services</Link>
           </li>
-          <li style={styles.navbarLogoItem}>
-            <Link to="/" style={styles.navbarLogo}>
-              <img src={logo} style={styles.logoImage} />
+          <li className={styles.navbarLogoItem}>
+            <Link to="/" className={styles.navbarLogo}>
+              <img src={logo} className={styles.logoImage} alt="Logo" />
             </Link>
           </li>
-          <li style={styles.navbarItem}>
-            <Link to="/owner" style={styles.navbarLink}>Owner</Link>
+          <li className={styles.navbarItem}>
+            <Link to="/owner" className={styles.navbarLink}>Owner</Link>
           </li>
-          <li style={styles.navbarItem}>
-            <Link to="/contact" style={styles.navbarLink}>Contact</Link>
+          <li className={styles.navbarItem}>
+            <Link to="/contact" className={styles.navbarLink}>Contact</Link>
           </li>
         </ul>
       </div>
     </nav>
   );
 }
-
-const styles = {
-  navbar: {
-    padding: '10px 20px',
-    color: '#fff',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  navbarContainer: {
-    width: '100%',
-    maxWidth: '1200px',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  navbarLogo: {
-    textDecoration: 'none',
-    color: '#fff',
-  },
-  navbarMenu: {
-    listStyle: 'none',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 0,
-    margin: 0,
-    width: '100%',
-  },
-  navbarItem: {
-    margin: '0 100px',
-  },
-  navbarLogoItem: {
-    margin: '0 40px',
-  },
-  navbarLink: {
-    textDecoration: 'none',
-    color: '#fff',
-    fontSize: '1.3em',
-    transition: 'color 0.3s',
-  },
-  logoImage: {
-    height: '120px',
-  },
-};
 
 export default Navbar;
