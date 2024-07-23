@@ -11,8 +11,28 @@
 
 @media (max-width: 767px) {
   .body {
-    background-color: purple;
     width: 100vw;
+  }
+
+  .info {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    margin: 15vw;
+    margin-top: 0;
+    height: 10vh;
+    width: 90vw; /* Make the width the size of the screen */
+  }
+  .pg1 {
+    text-align: right;
+    padding-right: 1.3vw;
+    margin: 0;
+  }
+  
+  .pg2 {
+    text-align: left;
+    padding-right: 1.3vw;
+    margin: 0;
   }
 }
 
