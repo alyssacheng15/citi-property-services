@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.panel {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 18%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* tablets */
+@media (min-width: 650px) and (max-width: 1024px) {
+  .panel {
+    flex: 1 1 45%;
+  }
+}
+
+/* phones */
+@media (max-width: 650px) {
+  .panel {
+    flex: 1 1 100%;
+  }
+}
