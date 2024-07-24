@@ -1,17 +1,41 @@
+.body {
+  background-color: #5c5c5c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 30px;
 }
 
 .panel {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   padding: 20px;
+  flex: 1 1 18%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.imgpanel {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
   margin: 10px;
   flex: 1 1 18%;
   box-sizing: border-box;
   text-align: center;
+}
+
+.buildings {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 /* tablets */
