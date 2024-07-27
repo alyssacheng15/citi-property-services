@@ -9,7 +9,7 @@ function Home() {
     <div className={styles.body}>
       <Navbar />
       <div className={styles.splineContainer}>
-        <Spline scene="https://prod.spline.design/vlBdDrCLuKb271ed/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/vlBdDrCLuKb271ed/scene.splinecode" />
       </div>
       <div className={styles.info}>
         <p className={styles.pg1}>

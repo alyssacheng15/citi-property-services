@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/layout/Navbar';
 import Spline from '@splinetool/react-spline';
 import styles from './AboutUs.module.css';
+import aboutUsHeader from '../assets/images/aboutUsHeader.png';
+
 
 const AboutUs = () => {
   return (
     <div className={styles.container}>
+              <img src={aboutUsHeader} className={styles.aboutUsHeader} alt="header" />
       <div className={styles.panel}>Panel 1</div>
       <div className={styles.panel}>Panel 2</div>
       <div className={styles.panel}>Panel 3</div>
