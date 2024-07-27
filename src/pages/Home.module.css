@@ -6,40 +6,11 @@
   align-items: center;
   margin: 0;
 }
-
-@media (max-width: 767px) {
-  .body {
-    width: 100vw;
-  }
-
-  .info {
-    background-color: #fff;
-    padding: 10px;
-    display: flex;
-    margin: 15vw;
-    margin-top: 0;
-    height: 10vh;
-    width: 90vw;
-  }
-  .pg1 {
-    text-align: right;
-    padding-right: 1.3vw;
-    margin: 0;
-  }
-  
-  .pg2 {
-    text-align: left;
-    padding-right: 1.3vw;
-    margin: 0;
-  }
-}
-
 .spline-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  width: 100%;
   margin: 0;
 }
 
@@ -57,9 +28,75 @@
 .pg1 {
   text-align: right;
   padding-right: 2vw;
+  vertical-align: middle;
+
 }
 
 .pg2 {
   text-align: left;
   padding-right: 2vw;
+  vertical-align: middle;
+
+}
+
+@media (min-width: 650px) and (max-width: 1024px) { /*tablet size */
+  .body {
+    width: 100vw;
+  }
+
+  .info {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    margin: 15vw;
+    margin-top: 0;
+    height: 100vh;
+    width: 90vw;
+  }
+  .pg1 {
+    text-align: right;
+    padding-right: 5vw;
+    padding: 1.5vw;
+    margin: 0;
+    vertical-align: middle;
+  }
+  
+  .pg2 {
+    text-align: left;
+    padding-right: 5vw;
+    padding: 1.5vw;
+    margin: 0;
+    vertical-align: middle;
+  }
+}
+
+
+ /* phone size */
+ @media (max-width: 650px) {
+  .spline-container {
+    width: 20%;
+    display: block;
+  }
+
+  .info {
+    height: 60vh;
+    width: 100%;
+  }
+
+  .pg1 {
+    text-align: right;
+    padding-right: 5vw;
+    padding: 1.5vw;
+    margin: 0;
+    vertical-align: middle;
+  }
+  
+  .pg2 {
+    text-align: left;
+    padding-right: 5vw;
+    padding: 1.5vw;
+    margin: 0;
+    vertical-align: middle;
+  }
+  
 }
