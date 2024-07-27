@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/images/citi_logo.png';
 import styles from './NavBar.module.css';
 
+
 function Navbar() {
   return (
     <nav className={styles.navbar}>

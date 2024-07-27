@@ -8,6 +8,9 @@ import aboutUsHeader from '../assets/images/aboutUsHeader.png';
 
 const AboutUs = () => {
   return (
+    <div className={styles.body}>
+          <Navbar />
+
     <div className={styles.container}>
               <img src={aboutUsHeader} className={styles.aboutUsHeader} alt="header" />
       <div className={styles.panel}>Panel 1</div>
@@ -16,6 +19,8 @@ const AboutUs = () => {
       <div className={styles.panel}>Panel 4</div>
       <div className={styles.panel}>Panel 5</div>
     </div>
+    </div>
+
   );
 };
 
