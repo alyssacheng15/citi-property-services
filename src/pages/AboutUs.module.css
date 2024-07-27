@@ -27,6 +27,8 @@
   flex: 1 1 18%;
   box-sizing: border-box;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgpanel {
@@ -36,10 +38,7 @@
   flex: 1 1 18%;
   box-sizing: border-box;
   text-align: center;
-}
-
-.buildings {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   overflow: hidden;
 }
