@@ -8,8 +8,9 @@
 }
 
 .aboutUsHeader {
-  width: 100%;
-  
+  width: 50%;
+  margin: auto;
+  display: block;
 }
 
 .container {
@@ -48,11 +49,19 @@
   .panel {
     flex: 1 1 45%;
   }
+
+  .aboutUsHeader {
+    width: 65%;
+  }
 }
 
 /* phones */
 @media (max-width: 650px) {
   .panel {
     flex: 1 1 100%;
+  }
+
+  .aboutUsHeader {
+    width: 90%;
   }
 }

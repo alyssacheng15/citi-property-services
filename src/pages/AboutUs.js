@@ -12,7 +12,10 @@ const AboutUs = () => {
           <Navbar />
 
     <div className={styles.container}>
-              <img src={aboutUsHeader} className={styles.aboutUsHeader} alt="header" />
+      <div className={styles.headerContainer}>
+        <img src={aboutUsHeader} className={styles.aboutUsHeader} alt="header" />
+      </div>
+      
       <div className={styles.panel}>Panel 1</div>
       <div className={styles.panel}>Panel 2</div>
       <div className={styles.panel}>Panel 3</div>
